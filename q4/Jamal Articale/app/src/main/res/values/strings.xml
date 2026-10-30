@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jamal1</string>
+
+    <string name="title">Java and XML tutorial</string>
+
+    <string name="paragraph_1">Java and XML are two core tools for building native Android apps. Java is a powerful, object-oriented programming language that handles the logic of your app, while XML is a markup language that describes how the screen should look.</string>
+
+    <string name="paragraph_2">In this tutorial, you build a simple screen using both of them. In XML, you declare the elements you want, such as an ImageView and a TextView, and place them inside a layout like ConstraintLayout or LinearLayout. Each element gets an id so it can be found later. In Java, you write classes and methods that connect to those elements through setContentView and findViewById. This separation keeps your design and your logic apart, which makes your app\'s code easier to read, test, and maintain. To create a new screen, you add an XML layout file and a Java Activity class that loads it.</string>
+</resources>
