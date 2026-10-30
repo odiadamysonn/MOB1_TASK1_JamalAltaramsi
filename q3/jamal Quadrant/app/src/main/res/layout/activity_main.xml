@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/viewQ1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/quadrant1_bg"
+        app:layout_constraintBottom_toTopOf="@+id/viewQ3"
+        app:layout_constraintEnd_toStartOf="@+id/viewQ2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewQ1"
+        app:layout_constraintEnd_toEndOf="@+id/viewQ1"
+        app:layout_constraintStart_toStartOf="@+id/viewQ1"
+        app:layout_constraintTop_toTopOf="@+id/viewQ1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Software Developer"
+            android:textColor="@color/quadrant_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="A software developer transforms ideas into functional digital applications using programming languages to solve problems and improve technology."
+            android:textColor="@color/quadrant_text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/viewQ2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/quadrant2_bg"
+        app:layout_constraintBottom_toTopOf="@+id/viewQ4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/viewQ1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewQ2"
+        app:layout_constraintEnd_toEndOf="@+id/viewQ2"
+        app:layout_constraintStart_toStartOf="@+id/viewQ2"
+        app:layout_constraintTop_toTopOf="@+id/viewQ2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Data Science"
+            android:textColor="@color/quadrant_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Data science is an interdisciplinary field that uses scientific methods, algorithms, and systems to extract valuable insights and knowledge from structured and unstructured data."
+            android:textColor="@color/quadrant_text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <!-- القسم الثالث (يسار الأسفل): Row composable -->
+    <View
+        android:id="@+id/viewQ3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/quadrant2_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewQ4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewQ1" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewQ3"
+        app:layout_constraintEnd_toEndOf="@+id/viewQ3"
+        app:layout_constraintStart_toStartOf="@+id/viewQ3"
+        app:layout_constraintTop_toTopOf="@+id/viewQ3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Mobile App Developer"
+            android:textColor="@color/quadrant_text"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="A mobile application developer designs, builds, and maintains intuitive apps for smartphones and tablets to create seamless user experiences."
+            android:textColor="@color/quadrant_text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/viewQ4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/quadrant1_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/viewQ3"
+        app:layout_constraintTop_toBottomOf="@+id/viewQ2" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewQ4"
+        app:layout_constraintEnd_toEndOf="@+id/viewQ4"
+        app:layout_constraintStart_toStartOf="@+id/viewQ4"
+        app:layout_constraintTop_toTopOf="@+id/viewQ4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Computer Engineer"
+            android:textColor="@color/quadrant_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="A computer science engineer designs, develops, and optimizes complex computing systems and algorithms to drive technological innovation and efficiency."
+            android:textColor="@color/quadrant_text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
