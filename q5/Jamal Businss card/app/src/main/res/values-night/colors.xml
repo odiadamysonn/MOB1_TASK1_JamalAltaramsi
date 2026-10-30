@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_screen">#0F1B5C</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_name">#00E01B</color>
+    <color name="text_contact">#3DA35D</color>
+</resources>
